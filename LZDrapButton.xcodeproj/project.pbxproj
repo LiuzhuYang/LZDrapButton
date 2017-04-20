@@ -15,6 +15,7 @@
 		8EE769531EA885030017071E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EE769511EA885030017071E /* LaunchScreen.storyboard */; };
 		8EE7695E1EA885040017071E /* LZDrapButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE7695D1EA885040017071E /* LZDrapButtonTests.m */; };
 		8EE769691EA885040017071E /* LZDrapButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE769681EA885040017071E /* LZDrapButtonUITests.m */; };
+		8EE7697C1EA8919E0017071E /* LZDrapButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE7697B1EA8919E0017071E /* LZDrapButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		8EE769641EA885040017071E /* LZDrapButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZDrapButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EE769681EA885040017071E /* LZDrapButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZDrapButtonUITests.m; sourceTree = "<group>"; };
 		8EE7696A1EA885040017071E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EE7697A1EA8919E0017071E /* LZDrapButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZDrapButton.h; sourceTree = "<group>"; };
+		8EE7697B1EA8919E0017071E /* LZDrapButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZDrapButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +104,8 @@
 		8EE769421EA885030017071E /* LZDrapButton */ = {
 			isa = PBXGroup;
 			children = (
-				8EE769461EA885030017071E /* AppDelegate.h */,
-				8EE769471EA885030017071E /* AppDelegate.m */,
-				8EE769491EA885030017071E /* ViewController.h */,
-				8EE7694A1EA885030017071E /* ViewController.m */,
-				8EE7694C1EA885030017071E /* Main.storyboard */,
-				8EE7694F1EA885030017071E /* Assets.xcassets */,
-				8EE769511EA885030017071E /* LaunchScreen.storyboard */,
-				8EE769541EA885030017071E /* Info.plist */,
+				8EE769771EA888690017071E /* Exaple */,
+				8EE769761EA888600017071E /* Class */,
 				8EE769431EA885030017071E /* Supporting Files */,
 			);
 			path = LZDrapButton;
@@ -117,6 +114,9 @@
 		8EE769431EA885030017071E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8EE7694F1EA885030017071E /* Assets.xcassets */,
+				8EE769511EA885030017071E /* LaunchScreen.storyboard */,
+				8EE769541EA885030017071E /* Info.plist */,
 				8EE769441EA885030017071E /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +138,27 @@
 				8EE7696A1EA885040017071E /* Info.plist */,
 			);
 			path = LZDrapButtonUITests;
+			sourceTree = "<group>";
+		};
+		8EE769761EA888600017071E /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				8EE7697A1EA8919E0017071E /* LZDrapButton.h */,
+				8EE7697B1EA8919E0017071E /* LZDrapButton.m */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		8EE769771EA888690017071E /* Exaple */ = {
+			isa = PBXGroup;
+			children = (
+				8EE769461EA885030017071E /* AppDelegate.h */,
+				8EE769471EA885030017071E /* AppDelegate.m */,
+				8EE769491EA885030017071E /* ViewController.h */,
+				8EE7694A1EA885030017071E /* ViewController.m */,
+				8EE7694C1EA885030017071E /* Main.storyboard */,
+			);
+			name = Exaple;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +228,7 @@
 				TargetAttributes = {
 					8EE7693F1EA885030017071E = {
 						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = HUBJM66W6W;
 						ProvisioningStyle = Automatic;
 					};
 					8EE769581EA885040017071E = {
@@ -275,6 +297,7 @@
 			files = (
 				8EE7694B1EA885030017071E /* ViewController.m in Sources */,
 				8EE769481EA885030017071E /* AppDelegate.m in Sources */,
+				8EE7697C1EA8919E0017071E /* LZDrapButton.m in Sources */,
 				8EE769451EA885030017071E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +447,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HUBJM66W6W;
 				INFOPLIST_FILE = LZDrapButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.liuzhu.LZDrapButton;
@@ -435,6 +459,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HUBJM66W6W;
 				INFOPLIST_FILE = LZDrapButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.liuzhu.LZDrapButton;
@@ -507,6 +532,7 @@
 				8EE7696F1EA885040017071E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8EE769701EA885040017071E /* Build configuration list for PBXNativeTarget "LZDrapButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +541,7 @@
 				8EE769721EA885040017071E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8EE769731EA885040017071E /* Build configuration list for PBXNativeTarget "LZDrapButtonUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +550,7 @@
 				8EE769751EA885040017071E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
