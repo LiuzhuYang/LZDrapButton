@@ -7,23 +7,46 @@
 //
 
 #import "ViewController.h"
-
-@interface ViewController ()
+#import "LZDrapButton.h"
+@interface ViewController ()<LZDrapButtonDelegate>
 
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    LZDrapButton* drapButton = [[LZDrapButton alloc] initDrapButtonWithFrame:CGRectMake(self.view.bounds.size.width/2-50, self.view.bounds.size.height/2-50, 100, 100)];
+    drapButton.images = [[NSArray alloc]initWithObjects:[UIImage imageNamed:@"干烧"],[UIImage imageNamed:@"定时"], nil];
+    drapButton.delegate = self;
+    
+    [self.view addSubview:drapButton];
+    [drapButton addBreathAmbience];
 }
 
-
-- (void)didReceiveMemoryWarning {
+- (void)didReceiveMemoryWarning
+{
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
+-(void)pointRight:(LZDrapButton *)sender
+{
+    NSLog(@"向右");
+}
 
+-(void)pointLeft:(LZDrapButton *)sender
+{
+     NSLog(@"向左");
+}
+
+-(void)pointDown:(LZDrapButton *)sender
+{
+     NSLog(@"向下");
+}
+
+-(void)pointUp:(LZDrapButton *)sender
+{
+     NSLog(@"向上");
+}
 @end

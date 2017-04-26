@@ -16,6 +16,10 @@
 		8EE7695E1EA885040017071E /* LZDrapButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE7695D1EA885040017071E /* LZDrapButtonTests.m */; };
 		8EE769691EA885040017071E /* LZDrapButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE769681EA885040017071E /* LZDrapButtonUITests.m */; };
 		8EE7697C1EA8919E0017071E /* LZDrapButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE7697B1EA8919E0017071E /* LZDrapButton.m */; };
+		8EF794671EB0861700A1B744 /* 定时.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF794661EB0861700A1B744 /* 定时.png */; };
+		8EF794691EB0862B00A1B744 /* 干烧.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF794681EB0862B00A1B744 /* 干烧.png */; };
+		8EF7946C1EB091AC00A1B744 /* MulticolorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF7946B1EB091AC00A1B744 /* MulticolorView.m */; };
+		8EFC76E51EADD04700453C61 /* 主按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EFC76E41EADD04700453C61 /* 主按钮.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,11 @@
 		8EE7696A1EA885040017071E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EE7697A1EA8919E0017071E /* LZDrapButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZDrapButton.h; sourceTree = "<group>"; };
 		8EE7697B1EA8919E0017071E /* LZDrapButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZDrapButton.m; sourceTree = "<group>"; };
+		8EF794661EB0861700A1B744 /* 定时.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "定时.png"; sourceTree = "<group>"; };
+		8EF794681EB0862B00A1B744 /* 干烧.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "干烧.png"; sourceTree = "<group>"; };
+		8EF7946A1EB091AC00A1B744 /* MulticolorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MulticolorView.h; sourceTree = "<group>"; };
+		8EF7946B1EB091AC00A1B744 /* MulticolorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MulticolorView.m; sourceTree = "<group>"; };
+		8EFC76E41EADD04700453C61 /* 主按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主按钮.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +152,9 @@
 		8EE769761EA888600017071E /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				8EFC76E41EADD04700453C61 /* 主按钮.png */,
+				8EF7946A1EB091AC00A1B744 /* MulticolorView.h */,
+				8EF7946B1EB091AC00A1B744 /* MulticolorView.m */,
 				8EE7697A1EA8919E0017071E /* LZDrapButton.h */,
 				8EE7697B1EA8919E0017071E /* LZDrapButton.m */,
 			);
@@ -156,6 +168,8 @@
 				8EE769471EA885030017071E /* AppDelegate.m */,
 				8EE769491EA885030017071E /* ViewController.h */,
 				8EE7694A1EA885030017071E /* ViewController.m */,
+				8EF794681EB0862B00A1B744 /* 干烧.png */,
+				8EF794661EB0861700A1B744 /* 定时.png */,
 				8EE7694C1EA885030017071E /* Main.storyboard */,
 			);
 			name = Exaple;
@@ -268,6 +282,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EF794691EB0862B00A1B744 /* 干烧.png in Resources */,
+				8EF794671EB0861700A1B744 /* 定时.png in Resources */,
+				8EFC76E51EADD04700453C61 /* 主按钮.png in Resources */,
 				8EE769531EA885030017071E /* LaunchScreen.storyboard in Resources */,
 				8EE769501EA885030017071E /* Assets.xcassets in Resources */,
 				8EE7694E1EA885030017071E /* Main.storyboard in Resources */,
@@ -299,6 +316,7 @@
 				8EE769481EA885030017071E /* AppDelegate.m in Sources */,
 				8EE7697C1EA8919E0017071E /* LZDrapButton.m in Sources */,
 				8EE769451EA885030017071E /* main.m in Sources */,
+				8EF7946C1EB091AC00A1B744 /* MulticolorView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
